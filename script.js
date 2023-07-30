@@ -49,6 +49,8 @@ buttonStart.onclick = function (){
 }
 buttonReset.onclick = function(){
     clearInterval(interval)
+    min = 0
+    appendMin.innerHTML = "0"+min
     seconds = 0
     appendSeconds.innerHTML = "0"+seconds;
     ms = 0
